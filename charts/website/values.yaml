@@ -14,8 +14,8 @@ service:
 httpRoute:
   enabled: true
   parentRefs:
-    name: traefik-gateway
-    namespace: kube-system
+    - name: traefik-gateway
+      namespace: kube-system
   hostnames:
   - nathan-fouere.com
   rules:
