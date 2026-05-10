@@ -1,4 +1,4 @@
-name: Strategia Pipeline
+name: Webiste Pipeline
 
 on:
   push:
