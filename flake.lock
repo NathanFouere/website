@@ -1,0 +1,44 @@
+{
+  "nodes": {
+    "ananke": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1777010412,
+        "narHash": "sha256-VoFVDd+S9Mrr4oL9C/d6PUD/rb/3LnPxfSAeJiaj6a0=",
+        "owner": "gohugo-ananke",
+        "repo": "ananke",
+        "rev": "dc0a8223b3dd020543ece8d0013ef8bcf40a515b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "gohugo-ananke",
+        "repo": "ananke",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1777954456,
+        "narHash": "sha256-hGdgeU2Nk87RAuZyYjyDjFL6LK7dAZN5RE9+hrDTkDU=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "549bd84d6279f9852cae6225e372cc67fb91a4c1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "ananke": "ananke",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

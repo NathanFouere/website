@@ -1,0 +1,4 @@
+baseURL = 'https://nathan.fouere.com/'
+locale = 'fr'
+title = 'Site de Nathan Fouéré'
+theme = 'ananke'
