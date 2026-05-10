@@ -1,0 +1,25 @@
+image:
+  repository: website
+  pullPolicy: Always
+  tag: "latest"
+  
+podLabels:
+  app.kubernetes.io/component: website
+  
+service:
+  type: ClusterIP
+  port: 80
+  targetPort: 80
+  
+httpRoute:
+  enabled: true
+  parentRefs:
+    name: traefik-gateway
+    namespace: kube-system
+  hostnames:
+  - nathan-fouere.com
+  rules:
+    - matches:
+        - path:
+            type: PathPrefix
+            value: /

@@ -16,5 +16,4 @@ WORKDIR /usr/share/nginx/html
 
 COPY --from=build /app/public .
 
-# Expose port 80
 EXPOSE 80/tcp

@@ -31,6 +31,7 @@
         packages = [
           pkgs.hugo
           pkgs.git
+          pkgs.kubernetes-helm
         ];
       };
     };
