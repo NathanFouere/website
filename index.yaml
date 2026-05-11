@@ -3,6 +3,15 @@ entries:
   website:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2026-05-11T19:11:27.447321677Z"
+    digest: 1e05b976583314434a6114c368caa344b3f29af669bf2afa8ce3c1034f45e42d
+    name: website
+    type: application
+    urls:
+    - https://github.com/NathanFouere/website/releases/download/website-0.1.4/website-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2026-05-10T20:00:57.403557297Z"
     digest: 5bc47b5f64ff266a6be6b338ea8e98abd535db60b1b2051c0f11fb0e37dde80d
     name: website
@@ -28,4 +37,4 @@ entries:
     urls:
     - https://github.com/NathanFouere/website/releases/download/website-0.1.1/website-0.1.1.tgz
     version: 0.1.1
-generated: "2026-05-10T20:00:57.403570836Z"
+generated: "2026-05-11T19:11:27.447338097Z"
