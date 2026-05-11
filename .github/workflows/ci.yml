@@ -40,7 +40,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/website:latest-${{ github.run_id }}-${{ github.run_attempt }} # cf . https://stackoverflow.com/questions/67789507/generate-unique-string-in-github-actions
+          tags: ${{ secrets.DOCKER_USERNAME }}/website:0.0.${{ github.run_number }} # cf . https://stackoverflow.com/questions/54310050/how-to-version-build-artifacts-using-github-actions
 
       - name: Generate artifact attestation
         uses: actions/attest@v4
