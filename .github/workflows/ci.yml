@@ -40,7 +40,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: nathanfouere/website:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/website:latest
 
       - name: Generate artifact attestation
         uses: actions/attest@v4
