@@ -1,7 +1,4 @@
-image:
-  repository: website
-  pullPolicy: Always
-  tag: "latest"
+image: 
   
 podLabels:
   app.kubernetes.io/component: website
