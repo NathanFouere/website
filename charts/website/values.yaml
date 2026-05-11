@@ -1,13 +1,15 @@
-image: 
-  
+image: nathanfouere/website:latest
+
+pullPolicy: Always
+
 podLabels:
   app.kubernetes.io/component: website
-  
+
 service:
   type: ClusterIP
   port: 80
   targetPort: 80
-  
+
 httpRoute:
   enabled: true
   parentRefs:
